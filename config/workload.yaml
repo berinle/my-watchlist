@@ -11,3 +11,10 @@ spec:
       url: https://github.com/berinle/my-watchlist
       ref:
         branch: master
+  build:
+    env:
+    - name: BP_NODE_VERSION
+      value: "12.22.12"
+  env:
+  - name: BP_NODE_VERSION
+    value: "12.22.12"
