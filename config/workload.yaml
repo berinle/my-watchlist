@@ -7,4 +7,7 @@ metadata:
   name: my-watchlist
 spec:
   source:
-    git: https://github.com/berinle/my-watchlist.git
+    git: 
+      url: https://github.com/berinle/my-watchlist
+      ref:
+        branch: master
