@@ -1,0 +1,10 @@
+apiVersion: carto.run/v1alpha1
+kind: Workload
+metadata:
+  labels:
+    app.kubernetes.io/part-of: my-watchlist
+    apps.tanzu.vmware.com/workload-type: web
+  name: my-watchlist
+spec:
+  source:
+    git: https://github.com/berinle/my-watchlist.git
